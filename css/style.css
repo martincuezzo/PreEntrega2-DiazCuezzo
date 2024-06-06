@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto-Regular;
+
+}
+
+
+@font-face { 
+    font-family: "Roboto-Regular"; 
+    src: url("../assets/fonts/Roboto-Regular.ttf"); 
+} 
+
+img{
+    border-radius: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+       margin: 0 60px;
+}
+
+ /* MENU */ 
+.menu_nav{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+li{ list-style: none;}
+ /* LOS ITEM DEL MENU */ 
+.nav_item{
+    
+    font-size: 17px;
+    color:white;
+    text-decoration: none;
+    padding: 0 5px;
+    border-radius: 7px;
+
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav_item_footer{
+    color: #000000;
+    text-decoration: none;
+    padding: 0 5px;
+
+}
+.nav_item_footer:hover{
+color: white;
+    
+}
+.nav_item:hover{
+    background-color:#5B9850;
+    color: white;
+}
+.img_nav{
+padding: 0 60px;
+}
+
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    
+    height:795px ;
+    background-color: #5B9850;
+}
+main section{
+    height: 606px;
+    width: 20%;
+  margin: 0 0 0 60px;
+}
+
+
+main div{
+ 
+    height: 606px;
+    width: 65%;
+    margin: 0 60px 0 0 ;
+
+    
+  
+}
+
+main div img{
+    object-fit: fill;
+    width:100%;
+    margin: 10px;
+
+}
+img.img_main_tour{
+    height: 550px;
+}
+
+img.img_main_index{
+    height: 550px;
+
+}
+.publicidad{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    height:450px ;
+    background-color: #E9C039;
+
+}
+
+aside{
+    
+    width: 40%;
+    height: 222px;
+    margin: 0 60px 0 60px;
+}
+
+aside a img{
+    object-fit: fill;
+    width:100%;
+    height:100%;
+
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    height: 114px;
+    background-color: #277274;
+
+}
+
+footer div{
+  margin: 0 60px;
+}
+
+footer div p{
+    text-decoration: none;
+}
+
+footer div a{
+    text-decoration: none;
+   
+}
+
+
+main section h1 {
+margin:0 0 22px 0;
+color: #E9C039;
+}
+
+main section p {
+text-align: justify;
+font-weight: bold;
+word-spacing: 10px;
+
+}
+
+
+
+
+/* ////pagina tour/////  */
+
+.tour_main{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-between;   
+
+}
+
+.tour_main div {
+
+    height: 606px;
+    width: 65%;
+    margin: 0 60px 0 0 ;
+}
+
+.tour_section{
+
+    display: flex;
+flex-direction:column;
+align-items: center;
+justify-content:center;
+}
+
+
+/* BOTONES DE tour  */
+
+.boton_ticket{
+    font-size: 16px;
+color: #fff;
+background-color: #E9C039;
+border-radius: .25rem;
+}
+    
+.boton:hover{
+
+    background-color:#277274;
+}
+button{
+    margin: 10px ;
+
+}
+
+
+/* ////pagina discografia/////  */
+
+
+.main_discografia {
+    height: 600px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.main_discografia p {
+    display: block;
+    height: 100%;
+    margin: 10px 0 ;
+}
+
+iframe{
+    margin: 0 1%;
+}
+
+/* ////pagina multimedia/////  */
+
+
+.main_multimedia{
+
+    height: 1300px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    padding: 20px 0;
+}
+
+   
+
+.main_section_multimedia{
+   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    }
+
+.main_section_multimedia div{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+}
+.main_section_multimedia h2{
+margin: 20px;
+}
+.main_section_multimedia iframe{
+margin: 10px 0 ;
+}
+
+/* ////pagina contacto/////  */
+
+
+section form label{
+    margin: 10px;
+}
+section form input{
+    margin:0 0 0 10 px;
+
+
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+   
+
+
+}
+
