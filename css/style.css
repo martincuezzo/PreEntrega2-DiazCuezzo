@@ -10,6 +10,7 @@
 } 
 img{
     object-fit: fill;
+    border-radius: 5px;
     width: 100%;
 }
 
@@ -139,21 +140,15 @@ footer div img{
     justify-content: center;
 }
 /* comienza page tour */
-.main_tour{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-.tour-main-div{
-    width: 400px ;
-    margin: 15px;
+ 
+.tour_main_div{
+ margin: 15px;
+} 
 
-}
 main section button a{
 color: white;
 }
+
 
 /* page discrografia */
 .main_discografia{
@@ -178,6 +173,23 @@ color: white;
 
 }   
 
+@media (min-width:714px)
+{
+.ocultar{
+    display: none;
+
+}
+article.section__fotos{
+    max-width: 896px;
+}
+
+}
+
+.section__fotos div{
+
+    width: 200px ;
+    margin: 15px;
+}
 .section__video{
     display: flex;
     flex-direction: column;
@@ -185,10 +197,13 @@ color: white;
     justify-content: center;
 
 }
-.section__fotos div{
+@media (min-width:714px)
+{
 
-    width: 200px ;
-    margin: 15px;
+.section__video iframe{
+    height:400px;
+    width:600px;
+}
 }
 
 
@@ -203,5 +218,20 @@ color: white;
 }
 .publicidad aside{
     width: 400px;
+}
+
+/* pagina contacto */
+
+@media (max-width:800px)
+{
+
+   .adaptar{
+        flex-direction: column-reverse;
+    }
+
+    .tour_main_div{
+        max-width: 330px;
+    }
+
 }
 
