@@ -5,76 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>discografia</title>
     <link rel="shortcut icon" href="../assets/icon/x.svg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
-<body>
-    <header>
-        <div class="img_nav"> 
+<body class="container-fluid">
+        <header class="row">
+            <div class="img_nav col-4 col-sm-2"> 
             <img src="../assets/images/letrero.gif" alt="">
-        </div>
-
-
-
-        <nav>
+            </div>
+        <nav class="menu_nav col-8 col-sm-10">
             <ul class="menu_nav">
                 <li><a class="nav_item" href="../index.html">INICIO</a></li>
                 <li><a class="nav_item" href="./tour.html">TOUR</a></li>
                 <li><a class="nav_item" href="./multimedia.html">MULTIMEDIA</a></li>
                 <li><a class="nav_item" href="./discografia.html">DISCOGRAFIA</a></li>
                 <li><a class="nav_item" href="./contacto.html">CONTACTO</a></li>
-                
             </ul>
         </nav>
         </header>
-    <main class="main_discografia">
-
-
-        <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/5WTsC6KDdxp9xVQrAMIU6c?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <!-- 
         <br>
         <iframe class="spotify"  style="border-radius:12px" src="https://open.spotify.com/embed/album/0lgs2Sa82lyX89nBUWyUy6?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/7pijRxgRaBirPz6wDaJIp9?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/16ScBmKm5WA3RwvTqiQlJd?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      -->
+    
+    <main class="main_discografia row">
+        <div class="main__div col-12 col-sm-3">
+            <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/5WTsC6KDdxp9xVQrAMIU6c?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="main__img main__div col-12 col-sm-3">
+            <iframe class="spotify"  style="border-radius:12px" src="https://open.spotify.com/embed/album/0lgs2Sa82lyX89nBUWyUy6?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="main__div col-12 col-sm-3">
+            <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/7pijRxgRaBirPz6wDaJIp9?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        </div class="main__div col-12 col-sm-3">
+     <div class="main__div col-12 col-sm-3">
+        <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/16ScBmKm5WA3RwvTqiQlJd?utm_source=generator" width="250" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+     </div>
     
     </main>
         
-        <div class="publicidad">
-
-    
-            <aside> 
+    <div class="publicidad row">
+        <aside class="col-12 col-sm-6"> 
+            <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
+            <img src="../assets/images/publicidad1.webp" alt="publicidad sprite">
+            </a>
+        </aside>
+        <aside  class="col-12 col-sm-6">
+            <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
+            <img src="../assets/images/publicidad2.webp" alt="publicidad sprite">
+            </a>
+        </aside>
+    </div>
         
-                <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
-                    <img src="../assets/images/publicidad1.webp" alt="publicidad sprite">
-                </a>
-            </aside>
-            <aside>
-        
-                <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
-                    <img src="../assets/images/publicidad2.webp" alt="publicidad sprite">
-                </a>
-        
-            </aside>
-        
-        </div>
-        <footer>
-            <div>
-                <p>Sitio sin fines de lucro &copy; 2024 </p>
+    <footer class="row">
+            <div class="col-8 col-sm-6">
+                <p>Sitio sin fines de lucro &copy; 2024</p>
             </div>
-    
-                    
-            <div class="redes">
+            <div class="redes col-4 col-sm-6">
                 <a href="https://www.youtube.com/channel/UCoMlNw7o21I7LqL4OsjSYAg">
-                    <img src="../assets/icon/brand-youtube.svg" alt="youtube de feid">
+                <img src="../assets/icon/brand-youtube.svg" alt="youtube de feid">
                 </a>
                 <a href="https://www.instagram.com/feid/">
-                    <img src="../assets/icon/brand-instagram.svg" alt="instagram de feid">
+                <img src="../assets/icon/brand-instagram.svg" alt="instagram de feid">
                 </a>
                 <a href="https://www.facebook.com/feidMDE">
-                    <img src="../assets/icon/brand-facebook.svg" alt="instagram de feid">
+                <img src="../assets/icon/brand-facebook.svg" alt="instagram de feid">
                 </a>
-                
-            </div>
+             </div>
         </footer>
-    
-</body>
-</html>
+    <!--este es el JS-->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

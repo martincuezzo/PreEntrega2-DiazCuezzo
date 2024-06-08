@@ -8,100 +8,104 @@
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
-<body>
-    <header>
-        <div class="img_nav"> 
-            <img src="../assets/images/letrero.gif" alt="">
+<body class="container-fluid">
+    <header class="row">
+        <div class="img_nav col-4 col-sm-2"> 
+        <img src="../assets/images/letrero.gif" alt="">
         </div>
+    <nav class="menu_nav col-8 col-sm-10">
+        <ul class="menu_nav">
+            <li><a class="nav_item" href="../index.html">INICIO</a></li>
+            <li><a class="nav_item" href="./tour.html">TOUR</a></li>
+            <li><a class="nav_item" href="./multimedia.html">MULTIMEDIA</a></li>
+            <li><a class="nav_item" href="./discografia.html">DISCOGRAFIA</a></li>
+            <li><a class="nav_item" href="./contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    </header>
 
-
-
-        <nav>
-            <ul class="menu_nav">
-                <li><a class="nav_item" href="../index.html">INICIO</a></li>
-                <li><a class="nav_item" href="./tour.html">TOUR</a></li>
-                <li><a class="nav_item" href="./multimedia.html">MULTIMEDIA</a></li>
-                <li><a class="nav_item" href="./discografia.html">DISCOGRAFIA</a></li>
-                <li><a class="nav_item" href="./contacto.html">CONTACTO</a></li>
-                
-            </ul>
-        </nav>
-        </header>
-    <main class="main_multimedia">
-        
-        
-        <section class="main_section_multimedia">
+    <main>
+        <section >
             
-            <h2>FOTOS</h2>  <!--TITULO DE FOTOS-->
+            <h2>FOTOS</h2> 
 
-                 <div>
-                <img src="../assets/images/1.webp" alt="feid gorra">
-                <img src="../assets/images/2.webp" alt="feid noche">
-                <img src="../assets/images/3.webp" alt="feid premios">
-                
-                </div>
-
-                <div>
-                <img src="../assets/images/4.webp" alt="feid saludando publico">
-                <img src="../assets/images/5.webp" alt="feid cantando">
-                <img src="../assets/images/6.webp" alt="feid caminando en concierto">
-                </div>
-
-                <div>
-                <img src="../assets/images/9.webp" alt="feid saludando publico">
-                <img src="../assets/images/10.webp" alt="feid cantando">
-                <img src="../assets/images/11.webp" alt="feid caminando en concierto">
-                </div>
-
+                 <article class="section__fotos">
+                    <div>
+                        <img src="../assets/images/1.webp" alt="feid gorra">
+                    </div>
+                    <div>
+                        <img src="../assets/images/2.webp" alt="feid noche">
+                    </div>
+                    <div>
+                        <img src="../assets/images/3.webp" alt="feid premios">
+                    </div>
+                    <div>
+                        <img src="../assets/images/4.webp" alt="feid saludando publico">
+                    </div>
+                    <div>
+                        <img src="../assets/images/5.webp" alt="feid cantando">
+                    </div>
+                    <div>
+                        <img src="../assets/images/6.webp" alt="feid caminando en concierto">
+                    </div>
+                   <div>
+                        <img src="../assets/images/6.webp" alt="feid saludando publico">
+                    </div>
+                    <div>
+                        <img src="../assets/images/6.webp" alt="feid cantando">
+                    </div>
+                    <div>
+                        <img src="../assets/images/6.webp" alt="feid caminando en concierto">
+                    </div>
+                    <div>
+                        <img src="../assets/images/6.webp" alt="feid caminando en concierto">
+                    </div>
+                 </article>
         </section>
 
-        <section class="main_section_multimedia">
-            <h2>VIDEOS</h2> <!--TITULO DE VIDEO-->
-            <iframe src="https://cdn.jwplayer.com/previews/vJAQRLlv" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
-            <iframe height="400px" width="600px" src="https://www.youtube.com/embed/uD0kjChWCkg" title="Feid, Jhay P - YO AKA (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            
-            
-            
-
-
-        </main>
-        <div class="publicidad">
-
-    
-            <aside> 
+       <section>
+        <h2>VIDEOS</h2>
+            <article class="section__video">
+                <div>
+                  <iframe src="https://cdn.jwplayer.com/previews/vJAQRLlv" frameborder="0"></iframe>
+                </div> 
+                <div>
+                 <iframe src="https://www.youtube.com/embed/uD0kjChWCkg"frameborder="0"></iframe>
+                </div>
+            </article>
+         </section>
         
-                <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
-                    <img src="../assets/images/publicidad1.webp" alt="publicidad sprite">
-                </a>
-            </aside>
-            <aside>
+    </main>
+        <div class="publicidad row">
+        <aside class="col-12 col-sm-6"> 
+            <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
+            <img src="../assets/images/publicidad1.webp" alt="publicidad sprite">
+            </a>
+        </aside>
+        <aside  class="col-12 col-sm-6">
+            <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
+            <img src="../assets/images/publicidad2.webp" alt="publicidad sprite">
+            </a>
+        </aside>
+    </div>
         
-                <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
-                    <img src="../assets/images/publicidad2.webp" alt="publicidad sprite">
-                </a>
-        
-            </aside>
-        
-        </div>
-        <footer>
-            <div>
-                <p>Sitio sin fines de lucro &copy; 2024 </p>
+    <footer class="row">
+            <div class="col-8 col-sm-6">
+                <p>Sitio sin fines de lucro &copy; 2024</p>
             </div>
-    
-                    
-            <div class="redes">
+            <div class="redes col-4 col-sm-6">
                 <a href="https://www.youtube.com/channel/UCoMlNw7o21I7LqL4OsjSYAg">
-                    <img src="../assets/icon/brand-youtube.svg" alt="youtube de feid">
+                <img src="../assets/icon/brand-youtube.svg" alt="youtube de feid">
                 </a>
                 <a href="https://www.instagram.com/feid/">
-                    <img src="../assets/icon/brand-instagram.svg" alt="instagram de feid">
+                <img src="../assets/icon/brand-instagram.svg" alt="instagram de feid">
                 </a>
                 <a href="https://www.facebook.com/feidMDE">
-                    <img src="../assets/icon/brand-facebook.svg" alt="instagram de feid">
+                <img src="../assets/icon/brand-facebook.svg" alt="instagram de feid">
                 </a>
-                
-            </div>
+             </div>
         </footer>
-
-</body>
-</html>
+    <!--este es el JS-->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

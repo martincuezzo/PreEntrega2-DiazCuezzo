@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio</title>
     <link rel="shortcut icon" href="../assets/icon/x.svg">
-    <link rel="stylesheet" href="../css/bootstrap.min.css".css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    <header>
-        <div class="img_nav"> 
+<body class="container-fluid">
+   
+    <header class="row">
+        <div class="img_nav col-4 col-sm-2"> 
         <img src="../assets/images/letrero.gif" alt="">
         </div>
-    <nav>
+    <nav class="menu_nav col-8 col-sm-10">
         <ul class="menu_nav">
             <li><a class="nav_item" href="../index.html">INICIO</a></li>
             <li><a class="nav_item" href="./tour.html">TOUR</a></li>
@@ -23,8 +24,10 @@
         </ul>
     </nav>
     </header>
-<main>
-    <section>
+
+   
+ <main class="row">
+    <section class="col-12 col-sm-4">
         <h1>CONTACTO</h1>
         <p>Nos interesa conocerte y saber tù opinion al respecto, saber que es lo que te gustaria, contenido que desees ver o cambios que harias. Recorda que tù opinion es de gran interes!</p>
         <form action="/procesar.php" method="post">
@@ -37,28 +40,29 @@
             <button type="submit">Enviar</button>
         </form>
     </section>
-    <div >
-        <img src="../assets/images/8.webp" alt="prueba">
+    <div class="main__img col-12 col-sm-8">
+         <img src="../assets/images/8.webp" alt="prueba"> 
     </div>
 </main>
 
-<div class="publicidad">
-    <aside> 
+
+<div class="publicidad row">
+    <aside class="col-12 col-sm-6"> 
         <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
         <img src="../assets/images/publicidad1.webp" alt="publicidad sprite">
         </a>
     </aside>
-    <aside>
+    <aside  class="col-12 col-sm-6">
         <a href="https://www.coca-cola.com/mx/es/offerings/sprite-limelight/artists/feid" target="_blank">
         <img src="../assets/images/publicidad2.webp" alt="publicidad sprite">
         </a>
     </aside>
 </div>
-    <footer>
-        <div>
-            <p>Sitio sin fines de lucro &copy; 2024 </p>
+     <footer class="row">
+        <div class="col-8 col-sm-6">
+            <p>Sitio sin fines de lucro &copy; 2024</p>
         </div>
-        <div class="redes">
+        <div class="redes col-4 col-sm-6">
             <a href="https://www.youtube.com/channel/UCoMlNw7o21I7LqL4OsjSYAg">
             <img src="../assets/icon/brand-youtube.svg" alt="youtube de feid">
             </a>
@@ -71,7 +75,7 @@
          </div>
     </footer>
 <!--este es el JS-->
-<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
