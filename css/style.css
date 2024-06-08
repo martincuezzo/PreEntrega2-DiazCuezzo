@@ -115,15 +115,9 @@ margin:30px 0;
     background-color: #E9C039;
 }
 .publicidad aside{
-    width: 400px;
-    margin: 20px;
+    width: 350px;
 }
-@media (min-width:714px) {
-    .publicidad aside{
-        width: 600px;
-    }
 
-}
 
 /*comienza footer */
 footer{
