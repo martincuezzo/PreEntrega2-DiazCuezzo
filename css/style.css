@@ -52,7 +52,6 @@ li{
 
 /*comienza main:section y section*/
 main{
-    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     min-height: 900px;
