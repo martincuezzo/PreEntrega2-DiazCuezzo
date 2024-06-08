@@ -19,12 +19,14 @@ header{
     min-height: 200px;
     background-color: #000000;
     align-content: center;
+    justify-content: center;
     align-items: center;
     }
 header div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 90px;
     align-items: center;
     }
 header div img{
@@ -128,7 +130,9 @@ footer div img{
 
 /* page index */
 
-.index-main-div{
+
+
+/* .index-main-div{
     max-width: 900px;
     margin: 15px;
 }
@@ -138,7 +142,7 @@ footer div img{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
+} */
 /* comienza page tour */
  
 .tour_main_div{
